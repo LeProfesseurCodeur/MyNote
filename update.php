@@ -1,6 +1,5 @@
 <?php 
 	require_once('db/dbconf.php');
-
 	if (isset($_POST['updateNote'])) {
 		$id = $_POST['id'];
 		$title = $_POST['title'];

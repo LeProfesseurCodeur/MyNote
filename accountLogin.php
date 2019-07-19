@@ -12,7 +12,7 @@
 
 		$result = $db->query($sql);
 
-		if ($result->num_rows > 0) {
+		if ($result->num_rows > 0) { // num_rows : Retourne le nombre de lignes dans un résultat
 			session_start();
 			$_SESSION['username'] = $username;
 			$_SESSION['password'] = $password;

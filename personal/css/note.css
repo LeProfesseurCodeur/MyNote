@@ -121,19 +121,6 @@ input[name='search']:focus {
 	background-color: white;
 }
 
-
-/* button.color {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 10px;
-	background: #fff;
-	border: none;
-	outline: none;
-	font-size: 18px;
-} */
-
 #pink1 {
 	height: 20px;
 	width: 20px;
@@ -233,7 +220,7 @@ body {
 }
 
 #gray {
-    background: #34495e;
+    background: #E1E1E1;
 }
 
 #yellow {

@@ -32,7 +32,8 @@
 					}
 				}
 			}
-
+			
+			// Update base de donnée et renvoie sur la page de connexion login afin de se connecter
 			$sql = "UPDATE account SET profilePic = '$profilePic' WHERE username = '$username'";
 			echo $picProfile;
 			$addImage = $db->query($sql);

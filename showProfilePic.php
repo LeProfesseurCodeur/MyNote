@@ -5,7 +5,7 @@
 	
 	$result = $db->query($sql);
 
-	while ($row = $result->fetch_object()) {
+	while ($row = $result->fetch_object()) { // Retourne la ligne courante d'un jeu de résultat sous forme d'objet
 		$id = $row->id;
 		$fullName = $row->fullName;
 		$profilePic = $row->profilePic;

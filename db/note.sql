@@ -41,14 +41,7 @@ CREATE TABLE `account` (
 --
 
 INSERT INTO `account` (`id`, `fullName`, `username`, `password`, `gender`, `profilePic`, `created`) VALUES
-(19, 'madlkfajd', 'alksdjfalksdfj', 'NSzGYTIW6YYLU', 'F', '', '2017-05-26 14:27:28'),
-(20, 'adsfadsf', 'sadlkfjadslfj', 'NSugoWXePwhT.', 'F', '', '2017-05-26 14:31:20'),
-(21, 'lskdjLSADJ', 'LjdlJDSLJDLFA', 'LFDJLADSFJLASKFDJ', 'm', NULL, '2017-05-26 14:31:55'),
-(22, 'Mardy Sam An', 'mardy', 'NSgJ7zG9pgY92', 'M', 'db/profilePic/1495809189.jpg', '2017-05-26 14:33:09'),
-(23, 'hello', 'ass', 'NSgJ7zG9pgY92', 'M', '', '2017-05-26 14:38:56'),
-(24, 'Cool', 'joy', 'NSgJ7zG9pgY92', 'M', NULL, '2017-05-26 14:47:06'),
-(25, 'Mardy', 'mad', 'NSgJ7zG9pgY92', 'M', '', '2017-05-26 14:49:23'),
-(26, 'Cool Guy', 'jj', 'NSgJ7zG9pgY92', 'F', 'db/profilePic/1495810421.jpg', '2017-05-26 14:53:41');
+
 
 -- --------------------------------------------------------
 
@@ -68,16 +61,7 @@ CREATE TABLE `note` (
 --
 
 INSERT INTO `note` (`id`, `title`, `description`, `created`) VALUES
-(23, 'hello 1', 'check test te', '2017-05-26 16:46:34'),
-(30, 'adsfadsfasdfasdfasdfa', '', '2017-05-15 03:39:06'),
-(31, 'vdfasdfasdfasdf', 'dlfajdslfjalsfjalsjflasjflasjdfljsdf\r\nfSf\r\nS\r\nF\r\nSF\r\nS\r\nF\r\nSF\r\nSD', '2017-05-15 04:37:33'),
-(32, 'Guess', 'Hello', '2017-05-15 05:31:13'),
-(33, 'Untitled Noot', 'dfadsfksa;dkf;asdkf;lsdkf;skdf;ksdf;ksd;fks\r\n\r\nf\r\nF\r\nSDfS\r\nDF\r\nSDf\r\nS\r\nDF\r\nSDF\r\nSD\r\nF\r\ndsfdsfasdfsadfsd\r\nfsd\r\nfSDF\r\nSf\r\nS\r\nDf\r\nSFD\r\nsD', '2017-05-15 05:36:28'),
-(35, 'Test', 'Where does it come from?\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.', '2017-05-15 05:37:23'),
-(37, 'hello', 'atest', '2017-05-16 17:34:49'),
-(38, 'hello', 'jst', '2017-05-26 16:35:28'),
-(39, 'hel', 'help', '2017-05-26 16:36:12'),
-(40, 'tes', 'adflaksjdf', '2017-05-26 16:38:40');
+
 
 --
 -- Indexes for dumped tables
